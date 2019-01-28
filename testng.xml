@@ -1,0 +1,7 @@
+<suite name="UnitTests">
+ <test name="testngTest">
+ <classes>
+ <class name="JavaExercises.TestAnagram" />
+ </classes>
+ </test>
+</suite>
