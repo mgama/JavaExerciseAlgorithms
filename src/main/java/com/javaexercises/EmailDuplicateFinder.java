@@ -36,6 +36,9 @@ public class EmailDuplicateFinder {
         System.out.println(hs.size());
         //With the MOCK_DATA.csv test file, they are 500 duplicated email addresses out of 2500, therefore the hashset will be
         //only 2000 in size
+
+        //With the sample size of 100K email addresses with 50% of duplicates (from generatedEmailAddressesWithDuplicates.txt),
+        //the hashset is of size 50K, and it takes 72 milliseconds
     }
 
 }
